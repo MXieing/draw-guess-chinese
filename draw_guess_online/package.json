@@ -1,0 +1,9 @@
+{
+  "name": "draw-guess-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Real-time multiplayer Draw & Guess web game",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "dependencies": { "express": "^4.21.2", "socket.io": "^4.8.1" }
+}
